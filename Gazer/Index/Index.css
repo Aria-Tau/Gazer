@@ -1,0 +1,255 @@
+/*
+>Backround = #FFEBFB
+>Primary = #FFB9F0
+>Secondary = #943AC0
+>Accent = #545EDD
+>Text = #0E0811
+>Green = #98FE8F
+>Yellow = #FFD771
+>Red = FF7373
+>Blue = 9BEAFC
+*/
+
+body{
+    background-color: #FFEBFB;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Navbar{
+    background-color:#FFEBFB;
+    height: fit-content;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+.NavImg{
+    margin: 0px 8%;
+}
+.Navbar img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 160px;
+}
+
+.Seperator{
+    flex: 1;
+}
+
+.NavBtn{
+    background-color: #FFEBFB;
+    border: none;
+    height: 55px;
+    padding: 0px 2%;
+}
+.NavBtn a{
+    color: #0E0811;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+}
+.NavBtn a:hover{
+    color: #e081cf;
+    text-shadow: 0px 0px 3px #e081cea8;
+}
+.DonateBtn{
+    background-color: #943AC0 ;
+    padding: 0px 35px;
+    height: 40px;
+    width: auto;
+    margin: auto;
+    margin-right: 10%;
+    margin-left: 2%;
+    border-radius: 50px;
+    border: none;
+}
+.DonateBtn a{
+    color: white;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+}
+.DonateBtn:hover{
+    background-color: #e081cf;
+}
+
+/*! Main Index Content============================================*/
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 3%;
+    padding: 1%;
+}
+.Content h1{
+    font-family: 'Lemon Milk';
+    font-size: 56px;
+    margin: 0px;
+    padding: 0px;
+}
+.Content h2{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+.ContentImg{
+    background-image: url(/Asset/telescope_index2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 260px;
+    margin-bottom: 10px;
+}
+
+.ButtonRow{
+    flex-direction: row;
+}
+.ButtonRow button{
+    margin: 20px 50px;
+    padding: 15px;
+    border: none;
+    background-color: #e081cf;
+    border-radius: 50px;
+}
+.ButtonRow button a{
+    font-size: 17px;
+    color: #FFEBFB;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+.Scroll{
+    background-color: #943AC0;
+    height: max-content;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Scroll h1{
+    justify-content: center;
+    text-align: center;
+    margin: 0% 20%;
+    font-family: 'Lemon Milk';
+    font-size: 50px;
+}
+.Scroll h3{
+    justify-content: center;
+    text-align: center;
+    margin: 0% 10%;
+    font-family: 'Helvetica';
+    font-size: 35px;
+}
+.ScrollContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7% 10%;
+    padding: 0px;
+}
+.ScrollImg1{
+    background-image: url(/Asset/IndexImg1.png);
+    background-size: cover;
+    height: 300px;
+    width: 480px;
+    min-width: 480px;
+    border-radius: 10px;
+}
+.ScrollImg2{
+    background-image: url(/Asset/IndexImg2.png);
+    background-size: cover;
+    height: 330px;
+    width: 450px;
+    min-width: 450px;
+    border-radius: 10px;
+}
+.ScrollImg3{
+    background-image: url(/Asset/IndexImg3.png);
+    background-size: cover;
+    margin: 0% auto;
+    height: 500px;
+    width: 500px;
+    min-width: 500px;
+    border-radius: 10px;
+}
+
+.ScrollText h1, h4{
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0px;
+    margin: auto 4%;
+    font-family: 'Helvetica';
+}
+.ScrollText h1{
+    font-size: 40px;
+}
+.ScrollText h4{
+    font-size: 20px;
+}
+.ScrollSeperator{
+    height: 120px;
+}
+.Scroll button{
+    margin: 2% auto;
+    padding: 18px;
+    border: none;
+    background-color: #e081cf;
+    border-radius: 50px;
+}
+.Scroll button a{
+    font-size: 18px;
+    color: #FFEBFB;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+/*!Footer Style======================================*/
+
+.Footer{
+    background-color: #0E0811;
+    color: #FFEBFB;
+    margin: 0px;
+    padding: 20px;
+    height: max-content;
+    text-align: center;
+}
+.Footer h2{
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+.Footer h3{
+    font-family: 'Helvetica';
+    font-size: 15px;
+}
+.FooterRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: auto;
+    padding: 0px;
+}
+.FooterColumn{
+    height: auto;
+    flex-direction: column;
+    text-align: left;
+    margin: 0px 3%;
+}
+.FooterLineSeperator{
+    margin: 10px auto;
+    width: 70%;
+    height: 1.5px;
+    background-color: #e081cf;
+}

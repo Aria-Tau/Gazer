@@ -1,0 +1,195 @@
+/*
+>Backround = #FFEBFB
+>Primary = #FFB9F0
+>Secondary = #943AC0
+>Accent = #545EDD
+>Text = #0E0811
+>Green = #98FE8F
+>Yellow = #FFD771
+>Red = FF7373
+>Blue = 9BEAFC
+*/
+
+body{
+    background-color: #FFEBFB;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Navbar{
+    background-color:#00024300;
+    height: fit-content;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+.NavImg{
+    margin: 0px 8%;
+}
+.Navbar img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 160px;
+}
+
+.Seperator{
+    flex: 1;
+}
+
+.NavBtn{
+    background-color: #ffebfb00;
+    border: none;
+    height: 55px;
+    padding: 0px 2%;
+}
+.NavBtn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+}
+.NavBtn a:hover{
+    color: #e081cf;
+    text-shadow: 0px 0px 3px #e081cea8;
+}
+.DonateBtn{
+    background-color: #943AC0 ;
+    padding: 0px 35px;
+    height: 40px;
+    width: auto;
+    margin: auto;
+    margin-right: 10%;
+    margin-left: 2%;
+    border-radius: 50px;
+    border: none;
+}
+.DonateBtn a{
+    color: white;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+}
+.DonateBtn:hover{
+    background-color: #e081cf;
+}
+.Content{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -70px 0 0 0;
+    padding: 10% 8% 0 8%;
+    text-align: center;
+    background-image: url(/Asset/AboutBG.png);
+    background-size: cover;
+    background-position:top;
+    color: white;
+}
+.Content h1{
+    font-family: 'Lemon Milk';
+    font-size: 56px;
+    margin: 20px;
+    padding: 0px;
+}
+.Content h3{
+    font-family: 'Helvetica';
+    font-size: 18px;
+    margin: 20px;
+    padding: 0px;
+}
+.PhotoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: -120px 0 100px 0;
+}
+.PhotoBox{
+    background-color: #933ac000;
+    height: 420px;
+    width: 250px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.PhotoBox h4{
+    font-family: 'Montserrat';
+    font-size: 19px;
+    margin: 10px 0;
+}
+.PhotoBox p{
+    font-family: 'Helvetica';
+    font-size: 15px;
+    margin: 10px 0;
+}
+.Image1{
+    height: 320px;
+    width: 250px;
+    background-image: url(/Asset/Yobel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.Image2{
+    height: 320px;
+    width: 250px;
+    background-image: url(/Asset/TaufanAriq.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.Image3{
+    height: 320px;
+    width: 250px;
+    background-image: url(/Asset/NicholasSamuel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+/*!Footer Style======================================*/
+
+.Footer{
+    background-color: #0E0811;
+    color: #FFEBFB;
+    margin: 0px;
+    padding: 20px;
+    height: max-content;
+    text-align: center;
+}
+.Footer h2{
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+.Footer h3{
+    font-family: 'Helvetica';
+    font-size: 15px;
+}
+.FooterRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: auto;
+    padding: 0px;
+}
+.FooterColumn{
+    height: auto;
+    flex-direction: column;
+    text-align: left;
+    margin: 0px 3%;
+}
+.FooterLineSeperator{
+    margin: 10px auto;
+    width: 70%;
+    height: 1.5px;
+    background-color: #e081cf;
+}
